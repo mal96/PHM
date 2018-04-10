@@ -16,5 +16,3 @@ def load_dataset(path):
     y_test = np.load(path+'y_test.npy')
     return (x_train, y_train), (x_test, y_test)
 
-#(x_train, y_train), (x_test, y_test) = load_dataset('dataset/', one_hot_opsettings=True)
-
